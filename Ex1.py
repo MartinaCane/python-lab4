@@ -5,7 +5,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 def read_from_database():
     lista = list()
-
+ 
     # prepare the query for reading from DB
 
     query = "SELECT todo FROM tasks"
